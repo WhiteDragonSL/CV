@@ -1,0 +1,187 @@
+/* CSS for Dinindu.me */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+.main-content {
+  display: flex;
+  width: 80%;
+  height: 90%;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.left-section {
+  width: 30%;
+  background: #272442;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.right-section {
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile .image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile .name {
+  margin: 10px 0 5px;
+  font-size: 22px;
+}
+
+.profile .career {
+  font-size: 16px;
+  color: #bbb;
+}
+
+.contact-info,
+.skills-section,
+.references-section {
+  margin-bottom: 20px;
+}
+
+.contact-info ul,
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li,
+.skills-section ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info ul li i,
+.skills-section ul li i {
+  width: 25px;
+  text-align: center;
+  color: #bbb;
+}
+
+.contact-info ul li a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.skills-section .skill-title {
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #444;
+  border-radius: 5px;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 5px;
+}
+
+.js-progress { width: 90%; background: #4caf50; }
+.ps-progress { width: 80%; background: #ff9800; }
+.j-progress { width: 85%; background: #2196f3; }
+.c-progress { width: 70%; background: #9c27b0; }
+.r-progress { width: 60%; background: #f44336; }
+.n-progress { width: 75%; background: #00bcd4; }
+.h-progress { width: 95%; background: #e91e63; }
+.i-progress { width: 65%; background: #673ab7; }
+.w-progress { width: 50%; background: #3f51b5; }
+
+.references-section .referee {
+  margin-bottom: 20px;
+}
+
+.references-section .referee h6 {
+  margin: 0 0 5px;
+}
+
+.references-section .referee p {
+  margin: 0 0 10px;
+}
+
+.right-main-content {
+  color: #333;
+}
+
+.right-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.para {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.timeline {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.left-tl-content {
+  width: 30%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.right-tl-content {
+  width: 70%;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-left: 2px solid #ddd;
+}
+
+.tl-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tl-title-2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.languages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.languages ul li {
+  margin-bottom: 10px;
+}
+
+.lang {
+  margin-bottom: 5px;
+}
+
+.en-progress { width: 85%; background: #4caf50; }
+.si-progress { width: 95%; background: #ff9800; }
+.jp-progress { width: 75%; background: aqua;}
